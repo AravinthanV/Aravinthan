@@ -21,7 +21,7 @@ public class ContiguousSubArray
 				sum+=arr[j];
 				al.add(arr[j]);
 			}
-			if(max<sum)
+			if(max<sum || i==0)
 			{
 				all.clear();
 				max=sum;
