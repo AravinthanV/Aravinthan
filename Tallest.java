@@ -1,5 +1,5 @@
 import java.util.*;
-class Tallest
+public class Tallest
 {
   public static void main(String args[])
   {
@@ -8,7 +8,7 @@ class Tallest
     for(int i=0;i<50;i++)
       height[i]=sc.nextInt();
     Arrays.sort(height);
-    int K=sc.nextInt();
+    int k=sc.nextInt();
     System.out.println(height.length-k+1);
   }
 }
